@@ -1,0 +1,1 @@
+javascript:(function(){var html = '<!DOCTYPE html>\n<html>'+document.documentElement.innerHTML+'</html>';var t=document.createElement('textarea');t.value=html;document.body.appendChild(t);t.select();document.execCommand('copy');document.body.removeChild(t);alert('Copied HTML: '+html.length/1000+'KB');})();
