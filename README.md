@@ -1,2 +1,2 @@
 # Hacks-and-extentions
-Try these
+hi these extention hacks are ONLY Javascript bookmarklets Only
