@@ -1,0 +1,1 @@
+javascript:(function(){var s=document.querySelectorAll('script'),c='';s.forEach(function(e){if(e.src)c+='// External script: '+e.src+'\n\n';else c+=e.textContent+'\n\n'});navigator.clipboard.writeText(c).then(()=>alert('JavaScript copied to clipboard!')).catch(e=>console.error('Failed to copy:',e))})()
